@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: ef3b15b844b2ed544889e4f56b82bcf7
+timeCreated: 1486036362
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Eye_left
+    100004: Eye_right
+    100006: Feather_center
+    100008: Feather_Head_Center
+    100010: Feather_Head_left
+    100012: Feather_Head_right
+    100014: Feather_left
+    100016: Feather_right
+    100018: Foot_left
+    100020: Foot_right
+    100022: Head
+    100024: Knee_left
+    100026: knee_left
+    100028: Knee_right
+    100030: knee_right
+    100032: Leg_left
+    100034: leg_left
+    100036: Leg_right
+    100038: leg_right
+    100040: Neck
+    100042: Ptoszek
+    100044: //RootNode
+    100046: Rear
+    100048: Root
+    100050: Tail
+    100052: Tail2
+    100054: Wing_left
+    100056: Wing_right
+    400000: Armature
+    400002: Eye_left
+    400004: Eye_right
+    400006: Feather_center
+    400008: Feather_Head_Center
+    400010: Feather_Head_left
+    400012: Feather_Head_right
+    400014: Feather_left
+    400016: Feather_right
+    400018: Foot_left
+    400020: Foot_right
+    400022: Head
+    400024: Knee_left
+    400026: knee_left
+    400028: Knee_right
+    400030: knee_right
+    400032: Leg_left
+    400034: leg_left
+    400036: Leg_right
+    400038: leg_right
+    400040: Neck
+    400042: Ptoszek
+    400044: //RootNode
+    400046: Rear
+    400048: Root
+    400050: Tail
+    400052: Tail2
+    400054: Wing_left
+    400056: Wing_right
+    4300000: Ptoszek
+    7400000: Default Take
+    7400002: Pick
+    7400004: Attack
+    7400006: Idle
+    7400008: Run
+    7400010: Jump
+    9500000: //RootNode
+    13700000: Ptoszek
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Attack
+      takeName: Default Take
+      firstFrame: 249
+      lastFrame: 279
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Leg_left
+        weight: 1
+      - path: Armature/Leg_left/Knee_left
+        weight: 1
+      - path: Armature/Leg_left/Knee_left/Foot_left
+        weight: 1
+      - path: Armature/Leg_right
+        weight: 1
+      - path: Armature/Leg_right/Knee_right
+        weight: 1
+      - path: Armature/Leg_right/Knee_right/Foot_right
+        weight: 1
+      - path: Armature/Rear
+        weight: 1
+      - path: Armature/Rear/Tail
+        weight: 1
+      - path: Armature/Rear/Tail/Tail2
+        weight: 1
+      - path: Armature/Rear/Tail/Tail2/Feather_center
+        weight: 1
+      - path: Armature/Rear/Tail/Tail2/Feather_left
+        weight: 1
+      - path: Armature/Rear/Tail/Tail2/Feather_right
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Neck
+        weight: 1
+      - path: Armature/Root/Neck/Head
+        weight: 1
+      - path: Armature/Root/Neck/Head/Eye_left
+        weight: 1
+      - path: Armature/Root/Neck/Head/Eye_right
+        weight: 1
+      - path: Armature/Root/Neck/Head/Feather_Head_Center
+        weight: 1
+      - path: Armature/Root/Neck/Head/Feather_Head_left
+        weight: 1
+      - path: Armature/Root/Neck/Head/Feather_Head_right
+        weight: 1
+      - path: Armature/Wing_left
+        weight: 1
+      - path: Armature/Wing_right
+        weight: 1
+      - path: knee_left
+        weight: 1
+      - path: knee_right
+        weight: 1
+      - path: leg_left
+        weight: 1
+      - path: leg_right
+        weight: 1
+      - path: Ptoszek
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: ArmatureAction
+      firstFrame: -1
+      lastFrame: 69
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Leg_left
+        weight: 1
+      - path: Armature/Leg_left/Knee_left
+        weight: 1
+      - path: Armature/Leg_left/Knee_left/Foot_left
+        weight: 1
+      - path: Armature/Leg_right
+        weight: 1
+      - path: Armature/Leg_right/Knee_right
+        weight: 1
+      - path: Armature/Leg_right/Knee_right/Foot_right
+        weight: 1
+      - path: Armature/Rear
+        weight: 1
+      - path: Armature/Rear/Tail
+        weight: 1
+      - path: Armature/Rear/Tail/Tail2
+        weight: 1
+      - path: Armature/Rear/Tail/Tail2/Feather_center
+        weight: 1
+      - path: Armature/Rear/Tail/Tail2/Feather_left
+        weight: 1
+      - path: Armature/Rear/Tail/Tail2/Feather_right
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Neck
+        weight: 1
+      - path: Armature/Root/Neck/Head
+        weight: 1
+      - path: Armature/Root/Neck/Head/Eye_left
+        weight: 1
+      - path: Armature/Root/Neck/Head/Eye_right
+        weight: 1
+      - path: Armature/Root/Neck/Head/Feather_Head_Center
+        weight: 1
+      - path: Armature/Root/Neck/Head/Feather_Head_left
+        weight: 1
+      - path: Armature/Root/Neck/Head/Feather_Head_right
+        weight: 1
+      - path: Armature/Wing_left
+        weight: 1
+      - path: Armature/Wing_right
+        weight: 1
+      - path: knee_left
+        weight: 1
+      - path: knee_right
+        weight: 1
+      - path: leg_left
+        weight: 1
+      - path: leg_right
+        weight: 1
+      - path: Ptoszek
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: ArmatureAction
+      firstFrame: 79
+      lastFrame: 119
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Leg_left
+        weight: 1
+      - path: Armature/Leg_left/Knee_left
+        weight: 1
+      - path: Armature/Leg_left/Knee_left/Foot_left
+        weight: 1
+      - path: Armature/Leg_right
+        weight: 1
+      - path: Armature/Leg_right/Knee_right
+        weight: 1
+      - path: Armature/Leg_right/Knee_right/Foot_right
+        weight: 1
+      - path: Armature/Rear
+        weight: 1
+      - path: Armature/Rear/Tail
+        weight: 1
+      - path: Armature/Rear/Tail/Tail2
+        weight: 1
+      - path: Armature/Rear/Tail/Tail2/Feather_center
+        weight: 1
+      - path: Armature/Rear/Tail/Tail2/Feather_left
+        weight: 1
+      - path: Armature/Rear/Tail/Tail2/Feather_right
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Neck
+        weight: 1
+      - path: Armature/Root/Neck/Head
+        weight: 1
+      - path: Armature/Root/Neck/Head/Eye_left
+        weight: 1
+      - path: Armature/Root/Neck/Head/Eye_right
+        weight: 1
+      - path: Armature/Root/Neck/Head/Feather_Head_Center
+        weight: 1
+      - path: Armature/Root/Neck/Head/Feather_Head_left
+        weight: 1
+      - path: Armature/Root/Neck/Head/Feather_Head_right
+        weight: 1
+      - path: Armature/Wing_left
+        weight: 1
+      - path: Armature/Wing_right
+        weight: 1
+      - path: knee_left
+        weight: 1
+      - path: knee_right
+        weight: 1
+      - path: leg_left
+        weight: 1
+      - path: leg_right
+        weight: 1
+      - path: Ptoszek
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Pick
+      takeName: ArmatureAction
+      firstFrame: 129
+      lastFrame: 169
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Leg_left
+        weight: 1
+      - path: Armature/Leg_left/Knee_left
+        weight: 1
+      - path: Armature/Leg_left/Knee_left/Foot_left
+        weight: 1
+      - path: Armature/Leg_right
+        weight: 1
+      - path: Armature/Leg_right/Knee_right
+        weight: 1
+      - path: Armature/Leg_right/Knee_right/Foot_right
+        weight: 1
+      - path: Armature/Rear
+        weight: 1
+      - path: Armature/Rear/Tail
+        weight: 1
+      - path: Armature/Rear/Tail/Tail2
+        weight: 1
+      - path: Armature/Rear/Tail/Tail2/Feather_center
+        weight: 1
+      - path: Armature/Rear/Tail/Tail2/Feather_left
+        weight: 1
+      - path: Armature/Rear/Tail/Tail2/Feather_right
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Neck
+        weight: 1
+      - path: Armature/Root/Neck/Head
+        weight: 1
+      - path: Armature/Root/Neck/Head/Eye_left
+        weight: 1
+      - path: Armature/Root/Neck/Head/Eye_right
+        weight: 1
+      - path: Armature/Root/Neck/Head/Feather_Head_Center
+        weight: 1
+      - path: Armature/Root/Neck/Head/Feather_Head_left
+        weight: 1
+      - path: Armature/Root/Neck/Head/Feather_Head_right
+        weight: 1
+      - path: Armature/Wing_left
+        weight: 1
+      - path: Armature/Wing_right
+        weight: 1
+      - path: knee_left
+        weight: 1
+      - path: knee_right
+        weight: 1
+      - path: leg_left
+        weight: 1
+      - path: leg_right
+        weight: 1
+      - path: Ptoszek
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump
+      takeName: ArmatureAction
+      firstFrame: 179
+      lastFrame: 239
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Leg_left
+        weight: 1
+      - path: Armature/Leg_left/Knee_left
+        weight: 1
+      - path: Armature/Leg_left/Knee_left/Foot_left
+        weight: 1
+      - path: Armature/Leg_right
+        weight: 1
+      - path: Armature/Leg_right/Knee_right
+        weight: 1
+      - path: Armature/Leg_right/Knee_right/Foot_right
+        weight: 1
+      - path: Armature/Rear
+        weight: 1
+      - path: Armature/Rear/Tail
+        weight: 1
+      - path: Armature/Rear/Tail/Tail2
+        weight: 1
+      - path: Armature/Rear/Tail/Tail2/Feather_center
+        weight: 1
+      - path: Armature/Rear/Tail/Tail2/Feather_left
+        weight: 1
+      - path: Armature/Rear/Tail/Tail2/Feather_right
+        weight: 1
+      - path: Armature/Root
+        weight: 1
+      - path: Armature/Root/Neck
+        weight: 1
+      - path: Armature/Root/Neck/Head
+        weight: 1
+      - path: Armature/Root/Neck/Head/Eye_left
+        weight: 1
+      - path: Armature/Root/Neck/Head/Eye_right
+        weight: 1
+      - path: Armature/Root/Neck/Head/Feather_Head_Center
+        weight: 1
+      - path: Armature/Root/Neck/Head/Feather_Head_left
+        weight: 1
+      - path: Armature/Root/Neck/Head/Feather_Head_right
+        weight: 1
+      - path: Armature/Wing_left
+        weight: 1
+      - path: Armature/Wing_right
+        weight: 1
+      - path: knee_left
+        weight: 1
+      - path: knee_right
+        weight: 1
+      - path: leg_left
+        weight: 1
+      - path: leg_right
+        weight: 1
+      - path: Ptoszek
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.35
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,255 @@
+fileFormatVersion: 2
+guid: 2513b5e9c0120ed45901fa96c91bc4fb
+timeCreated: 1485117821
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: czulekLewy
+    100002: czulekPrawy
+    100004: glowa
+    100006: joint20
+    100008: joint23
+    100010: kulkaLewa
+    100012: kulkaPrawa
+    100014: lewaNoga
+    100016: lewaNoga1
+    100018: lewaNoga2
+    100020: lewaNoga3
+    100022: lewaNoga4
+    100024: lewaReka
+    100026: lewaReka1
+    100028: lewaReka2
+    100030: lewaReka3
+    100032: lewaReka4
+    100034: lewaReka5
+    100036: mozg
+    100038: okoLewe
+    100040: okoPrawe
+    100042: //RootNode
+    100044: prawaNoga
+    100046: prawaNoga1
+    100048: prawaNoga2
+    100050: prawaNoga3
+    100052: prawaNoga4
+    100054: prawaReka
+    100056: prawaReka1
+    100058: prawaReka2
+    100060: prawaReka3
+    100062: prawaReka4
+    100064: prawaReka5
+    100066: pupaCTRL
+    100068: robociczek
+    100070: roboCTRL
+    100072: tors
+    100074: transform1
+    400000: czulekLewy
+    400002: czulekPrawy
+    400004: glowa
+    400006: joint20
+    400008: joint23
+    400010: kulkaLewa
+    400012: kulkaPrawa
+    400014: lewaNoga
+    400016: lewaNoga1
+    400018: lewaNoga2
+    400020: lewaNoga3
+    400022: lewaNoga4
+    400024: lewaReka
+    400026: lewaReka1
+    400028: lewaReka2
+    400030: lewaReka3
+    400032: lewaReka4
+    400034: lewaReka5
+    400036: mozg
+    400038: okoLewe
+    400040: okoPrawe
+    400042: //RootNode
+    400044: prawaNoga
+    400046: prawaNoga1
+    400048: prawaNoga2
+    400050: prawaNoga3
+    400052: prawaNoga4
+    400054: prawaReka
+    400056: prawaReka1
+    400058: prawaReka2
+    400060: prawaReka3
+    400062: prawaReka4
+    400064: prawaReka5
+    400066: pupaCTRL
+    400068: robociczek
+    400070: roboCTRL
+    400072: tors
+    400074: transform1
+    4300000: robociczek
+    7400000: PICK2
+    9500000: //RootNode
+    13700000: robociczek
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: PICK2
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: robociczek
+        weight: 1
+      - path: roboCTRL
+        weight: 1
+      - path: roboCTRL/pupaCTRL
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/glowa
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/glowa/mozg
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/glowa/mozg/czulekLewy
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/glowa/mozg/czulekLewy/kulkaLewa
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/glowa/mozg/czulekLewy/kulkaLewa/joint20
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/glowa/mozg/czulekPrawy
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/glowa/mozg/czulekPrawy/kulkaPrawa
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/glowa/mozg/czulekPrawy/kulkaPrawa/joint23
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/glowa/okoLewe
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/glowa/okoPrawe
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/lewaNoga
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/lewaNoga/lewaNoga1
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/lewaNoga/lewaNoga1/lewaNoga2
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/lewaNoga/lewaNoga1/lewaNoga2/lewaNoga3
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/lewaNoga/lewaNoga1/lewaNoga2/lewaNoga3/lewaNoga4
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/lewaReka
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/lewaReka/lewaReka1
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/lewaReka/lewaReka1/lewaReka2
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/lewaReka/lewaReka1/lewaReka2/lewaReka3
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/lewaReka/lewaReka1/lewaReka2/lewaReka3/lewaReka4
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/lewaReka/lewaReka1/lewaReka2/lewaReka3/lewaReka4/lewaReka5
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/prawaNoga
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/prawaNoga/prawaNoga1
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/prawaNoga/prawaNoga1/prawaNoga2
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/prawaNoga/prawaNoga1/prawaNoga2/prawaNoga3
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/prawaNoga/prawaNoga1/prawaNoga2/prawaNoga3/prawaNoga4
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/prawaReka
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/prawaReka/prawaReka1
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/prawaReka/prawaReka1/prawaReka2
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/prawaReka/prawaReka1/prawaReka2/prawaReka3
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/prawaReka/prawaReka1/prawaReka2/prawaReka3/prawaReka4
+        weight: 1
+      - path: roboCTRL/pupaCTRL/transform1/tors/prawaReka/prawaReka1/prawaReka2/prawaReka3/prawaReka4/prawaReka5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

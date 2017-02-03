@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: 120358a8966a25f46ab91b0d738cb403
+timeCreated: 1486036353
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm_left
+    100002: arm_left
+    100004: arm_left_001
+    100006: arm_right
+    100008: arm_right_001
+    100010: Arm_ritght
+    100012: Armature
+    100014: //RootNode
+    100016: "Bobies\u0142aw"
+    100018: Brow_left
+    100020: Brow_right
+    100022: Elbow_left
+    100024: Elbow_right
+    100026: Eye_left
+    100028: Eye_right
+    100030: Finger1_left
+    100032: Finger1_right
+    100034: Finger2_left
+    100036: Finger2_right
+    100038: Finger3_left
+    100040: Finger3_right
+    100042: Foot_left
+    100044: Foot_right
+    100046: Head
+    100048: Knee_left
+    100050: Knee_right
+    100052: Leg_left
+    100054: leg_left
+    100056: leg_left_001
+    100058: Leg_right
+    100060: leg_right
+    100062: leg_right_001
+    100064: Middle
+    100066: Nose
+    100068: Root
+    100070: Spine
+    400000: Arm_left
+    400002: arm_left
+    400004: arm_left_001
+    400006: arm_right
+    400008: arm_right_001
+    400010: Arm_ritght
+    400012: Armature
+    400014: //RootNode
+    400016: "Bobies\u0142aw"
+    400018: Brow_left
+    400020: Brow_right
+    400022: Elbow_left
+    400024: Elbow_right
+    400026: Eye_left
+    400028: Eye_right
+    400030: Finger1_left
+    400032: Finger1_right
+    400034: Finger2_left
+    400036: Finger2_right
+    400038: Finger3_left
+    400040: Finger3_right
+    400042: Foot_left
+    400044: Foot_right
+    400046: Head
+    400048: Knee_left
+    400050: Knee_right
+    400052: Leg_left
+    400054: leg_left
+    400056: leg_left_001
+    400058: Leg_right
+    400060: leg_right
+    400062: leg_right_001
+    400064: Middle
+    400066: Nose
+    400068: Root
+    400070: Spine
+    4300000: "Bobies\u0142aw"
+    7400000: Attack
+    7400002: Idle
+    7400004: ArmatureAction0
+    7400006: StandUp
+    7400008: SitDown
+    7400010: Run
+    7400012: Pick
+    7400014: Jump
+    9500000: //RootNode
+    13700000: "Bobies\u0142aw"
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ArmatureAction0
+      takeName: ArmatureAction
+      firstFrame: 339
+      lastFrame: 384
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Middle
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left/Finger1_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left/Finger2_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left/Finger3_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right/Finger1_right
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right/Finger2_right
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right/Finger3_right
+        weight: 1
+      - path: Armature/Spine/Middle/Head
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_left
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_left/Brow_left
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_right
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_right/Brow_right
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_left
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_left/Knee_left
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_left/Knee_left/Foot_left
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_right
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_right/Knee_right
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_right/Knee_right/Foot_right
+        weight: 1
+      - path: Armature/Spine/Middle/Nose
+        weight: 1
+      - path: "Bobies\u0142aw"
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/arm_left
+        weight: 1
+      - path: Root/arm_left_001
+        weight: 1
+      - path: Root/arm_right
+        weight: 1
+      - path: Root/arm_right_001
+        weight: 1
+      - path: Root/leg_left
+        weight: 1
+      - path: Root/leg_left_001
+        weight: 1
+      - path: Root/leg_right
+        weight: 1
+      - path: Root/leg_right_001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: ArmatureAction
+      firstFrame: -1
+      lastFrame: 49
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Middle
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left/Finger1_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left/Finger2_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left/Finger3_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right/Finger1_right
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right/Finger2_right
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right/Finger3_right
+        weight: 1
+      - path: Armature/Spine/Middle/Head
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_left
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_left/Brow_left
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_right
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_right/Brow_right
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_left
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_left/Knee_left
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_left/Knee_left/Foot_left
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_right
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_right/Knee_right
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_right/Knee_right/Foot_right
+        weight: 1
+      - path: Armature/Spine/Middle/Nose
+        weight: 1
+      - path: "Bobies\u0142aw"
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/arm_left
+        weight: 1
+      - path: Root/arm_left_001
+        weight: 1
+      - path: Root/arm_right
+        weight: 1
+      - path: Root/arm_right_001
+        weight: 1
+      - path: Root/leg_left
+        weight: 1
+      - path: Root/leg_left_001
+        weight: 1
+      - path: Root/leg_right
+        weight: 1
+      - path: Root/leg_right_001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: StandUp
+      takeName: ArmatureAction
+      firstFrame: 59
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Middle
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left/Finger1_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left/Finger2_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left/Finger3_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right/Finger1_right
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right/Finger2_right
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right/Finger3_right
+        weight: 1
+      - path: Armature/Spine/Middle/Head
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_left
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_left/Brow_left
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_right
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_right/Brow_right
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_left
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_left/Knee_left
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_left/Knee_left/Foot_left
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_right
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_right/Knee_right
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_right/Knee_right/Foot_right
+        weight: 1
+      - path: Armature/Spine/Middle/Nose
+        weight: 1
+      - path: "Bobies\u0142aw"
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/arm_left
+        weight: 1
+      - path: Root/arm_left_001
+        weight: 1
+      - path: Root/arm_right
+        weight: 1
+      - path: Root/arm_right_001
+        weight: 1
+      - path: Root/leg_left
+        weight: 1
+      - path: Root/leg_left_001
+        weight: 1
+      - path: Root/leg_right
+        weight: 1
+      - path: Root/leg_right_001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: SitDown
+      takeName: ArmatureAction
+      firstFrame: 99
+      lastFrame: 129
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Middle
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left/Finger1_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left/Finger2_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left/Finger3_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right/Finger1_right
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right/Finger2_right
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right/Finger3_right
+        weight: 1
+      - path: Armature/Spine/Middle/Head
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_left
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_left/Brow_left
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_right
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_right/Brow_right
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_left
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_left/Knee_left
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_left/Knee_left/Foot_left
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_right
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_right/Knee_right
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_right/Knee_right/Foot_right
+        weight: 1
+      - path: Armature/Spine/Middle/Nose
+        weight: 1
+      - path: "Bobies\u0142aw"
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/arm_left
+        weight: 1
+      - path: Root/arm_left_001
+        weight: 1
+      - path: Root/arm_right
+        weight: 1
+      - path: Root/arm_right_001
+        weight: 1
+      - path: Root/leg_left
+        weight: 1
+      - path: Root/leg_left_001
+        weight: 1
+      - path: Root/leg_right
+        weight: 1
+      - path: Root/leg_right_001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: ArmatureAction
+      firstFrame: 139
+      lastFrame: 169
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Middle
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left/Finger1_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left/Finger2_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left/Finger3_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right/Finger1_right
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right/Finger2_right
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right/Finger3_right
+        weight: 1
+      - path: Armature/Spine/Middle/Head
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_left
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_left/Brow_left
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_right
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_right/Brow_right
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_left
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_left/Knee_left
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_left/Knee_left/Foot_left
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_right
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_right/Knee_right
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_right/Knee_right/Foot_right
+        weight: 1
+      - path: Armature/Spine/Middle/Nose
+        weight: 1
+      - path: "Bobies\u0142aw"
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/arm_left
+        weight: 1
+      - path: Root/arm_left_001
+        weight: 1
+      - path: Root/arm_right
+        weight: 1
+      - path: Root/arm_right_001
+        weight: 1
+      - path: Root/leg_left
+        weight: 1
+      - path: Root/leg_left_001
+        weight: 1
+      - path: Root/leg_right
+        weight: 1
+      - path: Root/leg_right_001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Pick
+      takeName: ArmatureAction
+      firstFrame: 179
+      lastFrame: 239
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Middle
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left/Finger1_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left/Finger2_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left/Finger3_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right/Finger1_right
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right/Finger2_right
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right/Finger3_right
+        weight: 1
+      - path: Armature/Spine/Middle/Head
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_left
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_left/Brow_left
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_right
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_right/Brow_right
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_left
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_left/Knee_left
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_left/Knee_left/Foot_left
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_right
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_right/Knee_right
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_right/Knee_right/Foot_right
+        weight: 1
+      - path: Armature/Spine/Middle/Nose
+        weight: 1
+      - path: "Bobies\u0142aw"
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/arm_left
+        weight: 1
+      - path: Root/arm_left_001
+        weight: 1
+      - path: Root/arm_right
+        weight: 1
+      - path: Root/arm_right_001
+        weight: 1
+      - path: Root/leg_left
+        weight: 1
+      - path: Root/leg_left_001
+        weight: 1
+      - path: Root/leg_right
+        weight: 1
+      - path: Root/leg_right_001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Jump
+      takeName: ArmatureAction
+      firstFrame: 249
+      lastFrame: 309
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Middle
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left/Finger1_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left/Finger2_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_left/Elbow_left/Finger3_left
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right/Finger1_right
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right/Finger2_right
+        weight: 1
+      - path: Armature/Spine/Middle/Arm_ritght/Elbow_right/Finger3_right
+        weight: 1
+      - path: Armature/Spine/Middle/Head
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_left
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_left/Brow_left
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_right
+        weight: 1
+      - path: Armature/Spine/Middle/Head/Eye_right/Brow_right
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_left
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_left/Knee_left
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_left/Knee_left/Foot_left
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_right
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_right/Knee_right
+        weight: 1
+      - path: Armature/Spine/Middle/Leg_right/Knee_right/Foot_right
+        weight: 1
+      - path: Armature/Spine/Middle/Nose
+        weight: 1
+      - path: "Bobies\u0142aw"
+        weight: 1
+      - path: Root
+        weight: 1
+      - path: Root/arm_left
+        weight: 1
+      - path: Root/arm_left_001
+        weight: 1
+      - path: Root/arm_right
+        weight: 1
+      - path: Root/arm_right_001
+        weight: 1
+      - path: Root/leg_left
+        weight: 1
+      - path: Root/leg_left_001
+        weight: 1
+      - path: Root/leg_right
+        weight: 1
+      - path: Root/leg_right_001
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.25
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

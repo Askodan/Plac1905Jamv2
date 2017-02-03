@@ -111,26 +111,33 @@ public class Player_controller : MonoBehaviour {
 	void pickWeapon()
 	{
 		//print("Drop");
-		if (availableWeapon.Count>0) {
+		if (availableWeapon.Count>0&&!picking) {
 			animator.SetTrigger("Picking");
 			StartCoroutine (PICK());
 		}
 	}
+	bool picking;
 	IEnumerator PICK(){
+		picking = true;
 		yield return new WaitForSeconds(time2pick);
 		if (shooter) {
 			shooter.gameObject.SetActive (false);
 		}
-		shooter = availableWeapon[0];
-		shooter.playerRes = playerResults;
-		Transform parent = availableWeapon [0].transform.parent;
-		availableWeapon[0].transform.parent = gun.transform;
-		availableWeapon[0].transform.localPosition = Vector3.zero;
-		gun.GetComponent<GunPointer> ().nowGun = availableWeapon[0].transform;
-		shooter.GetComponent<Collider> ().enabled = false;
+		if (availableWeapon.Count > 0) {
+			shooter = availableWeapon [0];
+			shooter.playerRes = playerResults;
+			Transform parent = availableWeapon [0].transform.parent;
+			availableWeapon [0].transform.parent = gun.transform;
+			availableWeapon [0].transform.localPosition = Vector3.zero;
+			gun.GetComponent<GunPointer> ().nowGun = availableWeapon [0].transform;
+			shooter.GetComponent<Collider> ().enabled = false;
 
-		availableWeapon.RemoveAt (0);
-		parent.gameObject.SetActive (false);
+			availableWeapon.RemoveAt (0);
+		
+			if (parent)
+				parent.gameObject.SetActive (false);
+		}
+		picking = false;
 	}
 	void jump ()
 	{	//print("jump");

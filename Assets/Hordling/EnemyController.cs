@@ -4,7 +4,7 @@ using System.Collections;
 public class EnemyController : MonoBehaviour {
 	//public GameObject [] player;
 	public HordeControler hc;
-	public GameObject targetedPlayer;
+	public GameObject targetedPlayer=null;
 
 	private Animator ani;
 
@@ -32,12 +32,12 @@ public class EnemyController : MonoBehaviour {
 	IEnumerator checkPlayerPos()
 	{
 		while (true) {
-			// suspend execution for 5 seconds
-			yield return new WaitForSeconds (2);
-			if(agsActive)
+			// suspend execution for 2 seconds
+			yield return new WaitForSeconds (0.5f);
+			if(targetedPlayer!=null)
 			{
 				ws.allowed = false;
-				nma.SetDestination(targetedPlayer.transform.position);
+				nma.SetDestination(targetedPlayer.transform.position+transform.forward/2);
 			}
 			/*for(int i=0;i<GameMaster.Instance.players.Length;i++)
 			{

@@ -29,7 +29,9 @@ public class HordeControler : MonoBehaviour {
 	{
 		foreach (Transform child in transform)
 		{
-			child.gameObject.GetComponent<EnemyController>().TargetAcquired(player);
+			EnemyController ec = child.gameObject.GetComponent<EnemyController>();
+			if(ec!=null)
+				ec.TargetAcquired(player);
 		}
 	}
 

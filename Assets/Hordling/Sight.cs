@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class Sight : MonoBehaviour {
 
-	public EnemyController ec;
+	private EnemyController ec;
 	void Start () {
 		ec=transform.parent.gameObject.GetComponent<EnemyController> ();
 	}
 	void OnTriggerEnter(Collider other) {
 		if (other.tag=="Player")
 		{
-			ec.hc.TargetAcquired (other.gameObject);
+			if(ec.targetedPlayer==null)
+				ec.hc.TargetAcquired (other.gameObject);
 		}
 	}
 }

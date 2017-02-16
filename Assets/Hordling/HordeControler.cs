@@ -1,15 +1,15 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class HordeControler : MonoBehaviour {
-	public bool valid = true;
 	public GameObject [] members;
 	public GameObject waypointParent;
 	public GameObject [] hordeWaypoints;
 	private int cnt = 0;
 	public int minionNumber;
 	public GameObject [] minion;
+	public GameObject player;
 
 	void Awake()
 	{
@@ -18,12 +18,18 @@ public class HordeControler : MonoBehaviour {
 
 	void GenerateMinions()
 	{
-		members = new GameObject[minionNumber]; 
+		members = new GameObject[minionNumber];
 
 		for (int i = 0; i < minionNumber; i++) {
-			GameObject Minion = Instantiate(minion[Random.Range(0,minion.Length)],Random.insideUnitSphere*3+transform.position,transform.rotation);
+			GameObject Minion = Instantiate(minion[Random.Range(0,1)],Random.insideUnitSphere*3+transform.position,transform.rotation,transform);
 			members [i] = Minion;
-			Minion.transform.parent = this.transform;
+		}
+	}
+	public void TargetAcquired (GameObject player)
+	{
+		foreach (Transform child in transform)
+		{
+			child.gameObject.GetComponent<EnemyController>().TargetAcquired(player);
 		}
 	}
 

@@ -4,19 +4,26 @@ using System.Collections;
 public class EnemyController : MonoBehaviour {
 	//public GameObject [] player;
 	public HordeControler hc;
+	public GameObject targetedPlayer;
 
 	private Animator ani;
 
 	public WaypointSystem ws;
 	public UnityEngine.AI.NavMeshAgent nma;
-	public float range = 10, losingRange = 20;
+	public float range = 100, losingRange = 200;
 	public bool agsActive=false;
 	// Use this for initialization
 	void Start () {
 		ani = GetComponentInChildren<Animator> ();
 		ws = GetComponent<WaypointSystem> ();
 		nma = GetComponent<UnityEngine.AI.NavMeshAgent> ();
+		hc = transform.parent.gameObject.GetComponent<HordeControler> ();
 		StartCoroutine(checkPlayerPos());
+	}
+	public void TargetAcquired (GameObject player)
+	{
+		agsActive=true;
+		targetedPlayer=player;
 	}
 
 	// Update is called once per frame
@@ -27,7 +34,12 @@ public class EnemyController : MonoBehaviour {
 		while (true) {
 			// suspend execution for 5 seconds
 			yield return new WaitForSeconds (2);
-			for(int i=0;i<GameMaster.Instance.players.Length;i++)
+			if(agsActive)
+			{
+				ws.allowed = false;
+				nma.SetDestination(targetedPlayer.transform.position);
+			}
+			/*for(int i=0;i<GameMaster.Instance.players.Length;i++)
 			{
 				if (!agsActive&&((GameMaster.Instance.players[i].transform.position - gameObject.transform.position).sqrMagnitude < range)) {
 					agsActive = true;
@@ -35,7 +47,7 @@ public class EnemyController : MonoBehaviour {
 					nma.SetDestination(GameMaster.Instance.players[i].transform.position);
 					StartCoroutine (leave());
 				}
-			} /*else {
+			}*/ /*else {
 				if ((player.transform.position - gameObject.transform.position).sqrMagnitude < losingRange) {
 					agsActive = false;
 					ws.allowed = true;
@@ -50,7 +62,7 @@ public class EnemyController : MonoBehaviour {
 		yield return new WaitForSeconds(30);
 		for(int i=0;i<GameMaster.Instance.players.Length;i++)
 		{
-			if ((GameMaster.Instance.players[i].transform.position - gameObject.transform.position).sqrMagnitude< range) {
+			if ((GameMaster.Instance.players[i].transform.position - gameObject.transform.position).sqrMagnitude < range) {
 				nma.stoppingDistance = 0;
 			}else{
 				agsActive = false;
